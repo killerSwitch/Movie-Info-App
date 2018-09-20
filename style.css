@@ -1,0 +1,155 @@
+nav+div{
+    text-align: center;
+}
+
+#header-form{
+    text-align: center;
+}
+
+.rating::after{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    content: "";
+    background: url("./Images/star.jpg") no-repeat 0 0;
+    background-size: 100%;
+}
+
+#movies .col-md-4{
+    margin-bottom: 10px;
+    height:500px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width:65%;
+    margin-left:40px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+#box{
+    height: 50vh;
+    background-image:url("./Images/movie.jpg");
+    background-attachment:fixed;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+}
+
+#box-text h1{
+    position: relative;
+    top: 100px;
+    color: honeydew;
+}
+
+.divider{
+    height: 50px;
+}
+#movie-year{
+    font-family: 'PT Sans', sans-serif;
+}
+
+#movie-title{
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+header{
+    background-image: url('http://www.thehomespun.com/wp-content/uploads/2012/10/Farm-Scenery.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+header h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3em;
+}
+header p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    color: #c9e2b3;
+}
+
+article{
+    height:200px;
+}
+
+#firstArticle,#secondArticle,#ThirdArticle{
+    clear: both;
+}
+article:nth-of-type(2){
+    background-color: lightgrey;
+}
+.title>*{
+    text-align: center;
+}
+.title h2,h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2em;
+}
+ p{
+    font-family: 'Droid Serif', serif;
+    font-size: 1.5em;
+    line-height: 1.447;
+     font-weight: 400;
+     margin: 0.75em;
+}
+
+ div .images img{
+     width: 100%;
+ }
+
+@media screen and (min-width:992px ){
+    .positionTop img{
+        position: relative;
+        bottom: 10em;
+    }
+    .positionBottom img{
+        position: relative;
+        top: 2em;
+    }
+}
+
+.about .card{
+    text-align: center;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.about .card i{
+    font-size: 2em;
+}
+.about .card h3{
+    font-size: 1.7em;
+   font-family: 'Chelsea Market', cursive;
+}
+.about .card p{
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+hr.style13 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+hr.style12 {
+    height: 6px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+#movies div .col-md-4:last-child::after{
+    content: url("up.png");
+}
+
+.navbar-default{
+    background-color: #deebf6
+}

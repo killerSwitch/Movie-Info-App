@@ -1,0 +1,21 @@
+.list-group-item{
+    height: 50px;
+}
+
+#list>li:first-child .up{
+    visibility: hidden;
+}
+
+#list>li:last-child .down{
+    visibility: hidden;
+}
+
+li span{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+li:nth-of-type(even){
+    background-color: #e1e1e2;
+}
